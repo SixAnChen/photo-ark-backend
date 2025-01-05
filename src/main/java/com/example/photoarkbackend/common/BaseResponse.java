@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * @Author: SixAn
  * @Date: 2025-01-05 16:40
- * @Description:
+ * @Description: 通用返回类
  */
 @SuppressWarnings({"all"})
 @Data

@@ -5,7 +5,7 @@ import com.example.photoarkbackend.exception.ErrorCode;
 /**
  * @Author: SixAn
  * @Date: 2025-01-05 16:41
- * @Description:
+ * @Description: 响应工具类
  */
 @SuppressWarnings({"all"})
 public class ResultUtils {

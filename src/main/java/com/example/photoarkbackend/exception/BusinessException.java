@@ -5,7 +5,7 @@ import lombok.Getter;
 /**
  * @Author: SixAn
  * @Date: 2025-01-05 16:39
- * @Description:
+ * @Description: 业务异常
  */
 @SuppressWarnings({"all"})
 @Getter

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 /**
  * @Author: SixAn
  * @Date: 2025-01-05 16:41
- * @Description:
+ * @Description: 全局异常处理
  */
 @SuppressWarnings({"all"})
 @RestControllerAdvice

@@ -2,6 +2,12 @@ package com.example.photoarkbackend.exception;
 
 import lombok.Getter;
 
+/**
+ * @Author: SixAn
+ * @Date: 2025-01-05 16:39
+ * @Description: 自定义错误码
+ */
+@SuppressWarnings({"all"})
 @Getter
 public enum ErrorCode {
     SUCCESS(0, "ok"),

@@ -3,7 +3,7 @@ package com.example.photoarkbackend.exception;
 /**
  * @Author: SixAn
  * @Date: 2025-01-05 16:39
- * @Description:
+ * @Description: 异常抛出工具类
  */
 @SuppressWarnings({"all"})
 public class ThrowUtils {

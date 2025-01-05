@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * @Author: SixAn
  * @Date: 2025-01-05 16:42
- * @Description:
+ * @Description: 跨域配置
  */
 @SuppressWarnings({"all"})
 @Configuration

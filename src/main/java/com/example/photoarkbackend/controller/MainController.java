@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @Author: SixAn
  * @Date: 2025-01-05 16:42
- * @Description:
+ * @Description: 健康检查接口
  */
 @SuppressWarnings({"all"})
 @RestController
