@@ -1,4 +1,4 @@
-package com.example.photoarkbackend.model.dto;
+package com.example.photoarkbackend.model.dto.user;
 
 import lombok.Data;
 

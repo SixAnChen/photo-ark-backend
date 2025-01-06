@@ -1,10 +1,14 @@
 package com.example.photoarkbackend.service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.photoarkbackend.model.dto.user.UserQueryRequest;
 import com.example.photoarkbackend.model.entity.User;
 import com.example.photoarkbackend.model.vo.LoginUserVO;
+import com.example.photoarkbackend.model.vo.UserVO;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 用户 Service 层
@@ -61,4 +65,28 @@ public interface UserService extends IService<User> {
      * @return boolean
      */
     boolean userLogout(HttpServletRequest request);
+
+    /**
+     * 用户视图
+     *
+     * @param user 用户数据
+     * @return 用户视图
+     */
+    UserVO getUserVO(User user);
+
+    /**
+     * 用户视图列表
+     *
+     * @param userList 用户数据列表
+     * @return 用户视图列表
+     */
+    List<UserVO> getUserVOList(List<User> userList);
+
+    /**
+     * 根据用户查询请求获取查询包装器
+     *
+     * @param userQueryRequest 用户查询请求
+     * @return 查询包装器
+     */
+    QueryWrapper<User> getQueryWrapper(UserQueryRequest userQueryRequest);
 }
